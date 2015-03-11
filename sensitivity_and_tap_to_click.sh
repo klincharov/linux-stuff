@@ -1,6 +1,6 @@
-# Thinkpad T410 has a low sensitivity by default, and all 
-# utilities don't seem to be able to increase it. Also 
-# tap to click setting was missing.
+# Thinkpad T410's TrackPoint has a low sensitivity by 
+# default, and all utilities don't seem to be able to 
+# increase it. Also tap to click setting was missing.
 
 # Place in startup applications to apply on every startup 
 
