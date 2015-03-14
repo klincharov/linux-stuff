@@ -1,0 +1,13 @@
+$ sudo apt-get install nvidia-current-updates
+
+sudo nano -w /etc/X11/xorg.conf
+
+Section "Device"
+    Identifier     "Device0"
+    Driver         "nvidia"
+    VendorName     "NVIDIA Corporation"
+    Option         "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x3322; PowerMizerDefaultAC=0x1"
+EndSection
+
+#PerfLevelSrc=0x2222 for FULL SPEED
+#PerfLevelSrc=0x3322 for Adaptive on BATT and FULL on AC
